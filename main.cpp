@@ -11,9 +11,9 @@ int main() {
 	std::cout << " -    =  " << a - b << "\n";
 	std::cout << " *    =  " << a * b << "\n";
 	std::cout << " /    =  " << a / b << "\n";
-    ans = a.conj(a);
+    ans = a.conj();
     std::cout << "conj  =  " << ans << "\n";
-    ans = b.conj(b);
+    ans = b.conj();
     std::cout << "conj  =  " << ans << "\n";
     if ( a == b ) {
         std::cout << "a    ==    b\n";    
