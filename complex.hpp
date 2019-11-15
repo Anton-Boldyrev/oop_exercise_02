@@ -7,7 +7,7 @@ class complex {
 public:
     complex();
     complex(double a, double b);
-    complex conj(const complex& o) const;
+    complex conj() const;
 
     friend complex operator + (const complex& , const complex& );
     friend complex operator - (const complex& , const complex& );
