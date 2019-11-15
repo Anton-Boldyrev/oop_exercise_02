@@ -17,7 +17,7 @@ complex::complex(double a, double b)  {
     fi = b;
 }
 
-complex complex::conj(const complex& o) const {
+complex complex::conj() const {
     complex result;
     result.r = r;
     result.fi = -fi;
